@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply background color to even rows */
+th{
+  background-color: #b8c49b;
+  font-weight: bold;
+  width: 20%;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  width: 5%;
+}
+
+/* Apply background color to odd rows */
+tr:nth-child(odd) {
+  background-color: #ffffff;
+  width: 5%;
+}
+
+/* Define other styles for your table, headers, and cells as needed */
